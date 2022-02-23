@@ -1,4 +1,4 @@
-#GIT FLOW
+##GIT FLOW
 
  1. Khái niệm : Git flow là tiện ích của git,giúp thao tác trên repository dễ dàng
 hiệu quả hơn dưa trên mô hình phân nhánh.
