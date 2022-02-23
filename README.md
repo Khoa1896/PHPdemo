@@ -95,7 +95,7 @@ môi trường của PHP,thông tin và hệ điều hành.....
 
 ### 5.Hướng dẫn dùng Biến-Comment-Debug trong PHP : 
 
-<li>1. Biến :
+1. Biến :
 <ul>
   <li>Cú pháp : $ten_bien
   <li>Ví dụ : $custom_name
@@ -112,12 +112,12 @@ môi trường của PHP,thông tin và hệ điều hành.....
 <li>Cú pháp : echo < tên biến/tên hàm/chuỗi/số > ;
 </ul>
 </ul>
-<li>2. Comment : 
+2. Comment : 
 <ul>
    <li>1 dòng : // code ở đây
   <li>Nhiều dòng : /* code ở đây */
 </ul>
-<li>3. Debug dữ liệu :
+3. Debug dữ liệu :
 <ul>
   <li>var_dump($var): Trả về kiểu dữ liệu và giá trị
   <li>print_r($var): Thường dùng để in mảng và đối tượng
