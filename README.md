@@ -83,6 +83,7 @@ Client yêu cầu ( dưới dạng XML or Json)
 <li>Tên miền,hosting,server/VPS
 <li>Bảo mật các hình thức tấn công và cách phòng tránh
 </ul>
+ 
 # BÀI HỌC
 ### 4. Kiểm tra thông tin trong PHP 
 <ul>
