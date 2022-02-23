@@ -1,4 +1,4 @@
-#GIT FLOW
+# GIT FLOW
 
  1. Khái niệm : Git flow là tiện ích của git,giúp thao tác trên repository dễ dàng
 hiệu quả hơn dưa trên mô hình phân nhánh.
@@ -40,7 +40,7 @@ là Server
 </li>
 </ul>
 
-##Giao thức HTML
+## Giao thức HTML
 Client và Server được kết nối qua giao thức HTML.Khi kết nối được thiết lập :
 <ul>
  <li>Client gửi yêu cầu Server ( dưới dạng XML or Json) 
@@ -49,9 +49,9 @@ Client yêu cầu ( dưới dạng XML or Json)
 </li> 
 </ul>
 
-#Ngôn Ngữ PHP
+# Ngôn Ngữ PHP
 
-##PHP là gì ?
+## PHP là gì ?
 - PHP là một ngôn ngữ lập trình kịch bản phía Server (hay còn gọi là Back end)
   dùng để phát triển các ứng dụng web
 - Hoạt động trên nhiều hệ điều hành
@@ -66,7 +66,7 @@ Client yêu cầu ( dưới dạng XML or Json)
     + Front-end: HTML,CSS,JS   --> FRONT END --> WEBSITE -->CSDL/Backend
     + Thêm,sửa,xoá dữ liệu                                  
 
-##Lộ trình học PHP & MySQL
+## Lộ trình học PHP & MySQL
 <li> Sơ đồ :
 <ul>
   <li>PHP cơ bản 
@@ -84,7 +84,7 @@ Client yêu cầu ( dưới dạng XML or Json)
 <li>Bảo mật các hình thức tấn công và cách phòng tránh
 </ul>
 # BÀI HỌC
-###4. Kiểm tra thông tin trong PHP 
+### 4. Kiểm tra thông tin trong PHP 
 <ul>
  <li>Thông tin này bao gồm :Phiên bản PHP,các phần mở rộng được cài,các biến
 môi trường của PHP,thông tin và hệ điều hành.....
@@ -92,7 +92,7 @@ môi trường của PHP,thông tin và hệ điều hành.....
     phpinfo(); --> xem trên localhost
 </ul>
 
-###5.Hướng dẫn dùng Biến-Comment-Debug trong PHP : 
+### 5.Hướng dẫn dùng Biến-Comment-Debug trong PHP : 
 
 <li>Biến :
 <ul>
