@@ -40,7 +40,7 @@ là Server
 </li>
 </ul>
 
-## Giao thức HTML
+# Giao thức HTML
 Client và Server được kết nối qua giao thức HTML.Khi kết nối được thiết lập :
 <ul>
  <li>Client gửi yêu cầu Server ( dưới dạng XML or Json) 
