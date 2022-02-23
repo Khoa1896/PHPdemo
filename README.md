@@ -29,8 +29,7 @@ cá biệt
 - Nhánh dùng để fix bug gấp sau khi hoàn tất release
 </ul>
 
-# Server-Client & giao thức HTML
-
+#Server-Client & giao thức HTML
 ##Server - Client
 Có thể hiểu :
 <ul>
