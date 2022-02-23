@@ -67,12 +67,22 @@ Client yêu cầu ( dưới dạng XML or Json)
     + Thêm,sửa,xoá dữ liệu                                  
 
 ##Lộ trình học PHP & MySQL
-- Sơ đồ :\
-  PHP cơ bản -> Lập trình hướng đối tượng với PHP(OOP) -> Thiết kế CSDL --> Xây dựng ứng dụng kết hợp PHP & MySQL( như thêm sửa,xoá dữ liệu hoặc đăng nhập đăng xuất)
-  -> Rewrite URL -> Xây dựng website hoàn chỉnh sử dụng PHP & MySQL -> Học về mô hình trong lập trình với CSDL : MVC,HMVC ->PHP Framework ->
-  PHP CMS ->Công cụ quản lý phiên bản mẫ nguồn : GIT,SVN -> Công cụ quản lí công việc : Trello -> Tên miền,hosting,server/VPS -->
-  Bảo mật các hình thức tấn công và cách phòng tránh
-
+<li> Sơ đồ :
+<ul>
+  <li>PHP cơ bản 
+<li>Lập trình hướng đối tượng với PHP(OOP)
+<li>Thiết kế CSDL 
+<li>Xây dựng ứng dụng kết hợp PHP & MySQL( như thêm sửa,xoá dữ liệu hoặc đăng nhập đăng xuất)
+<li>Rewrite URL
+<li>Xây dựng website hoàn chỉnh sử dụng PHP & MySQL
+<li>Học về mô hình trong lập trình với CSDL : MVC,HMVC
+<li>PHP Framework
+<li>PHP CMS
+<li>Công cụ quản lý phiên bản mẫ nguồn : GIT,SVN
+<li>Công cụ quản lí công việc : Trello 
+<li>Tên miền,hosting,server/VPS
+<li>Bảo mật các hình thức tấn công và cách phòng tránh
+</ul>
 # BÀI HỌC
 ###4. Kiểm tra thông tin trong PHP 
 <ul>
