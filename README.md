@@ -87,11 +87,7 @@ Client yêu cầu ( dưới dạng XML or Json)
 
 # BÀI HỌC
 ### 4. Kiểm tra thông tin trong PHP
-=======
 
-# BÀI HỌC
-### 4. Kiểm tra thông tin trong PHP
->>>>>>> origin/Khoa-1
 <ul>
  <li>Thông tin này bao gồm :Phiên bản PHP,các phần mở rộng được cài,các biến
 môi trường của PHP,thông tin và hệ điều hành.....
@@ -99,11 +95,8 @@ môi trường của PHP,thông tin và hệ điều hành.....
     phpinfo(); --> xem trên localhost
 </ul>
 
-<<<<<<< HEAD
+
 ### 5.Hướng dẫn dùng Biến-Comment-Debug trong PHP :
-=======
-### 5.Hướng dẫn dùng Biến-Comment-Debug trong PHP :
->>>>>>> origin/Khoa-1
 
 1. Biến :
 <ul>
