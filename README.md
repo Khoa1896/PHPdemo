@@ -150,13 +150,13 @@ hoặc thêm gạch dưới ở phía trước.
 ### 8. Các kiểu dữ liệu trong PHP
 *Có 8 kiểu dữ liệu trong PHP*
  <ul>
-Kiểu INT
-Kiểu số thực
-Kiểu String
-Kiẻu Boolean
-Kiểu Mảng
-Kiểu Null
-Kiểu Resource
-Kiểu đối tượng
+<li>Kiểu INT
+<li>Kiểu số thực
+<li>Kiểu String
+<li>Kiẻu Boolean
+<li>Kiểu Mảng
+<li>Kiểu Null
+<li>Kiểu Resource
+<li>Kiểu đối tượng
 
 </ul>
