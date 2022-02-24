@@ -154,6 +154,6 @@ Kiẻu Boolean
 Kiểu Mảng
 Kiểu Null
 Kiểu Resource
-Kiểu đối tươgnj
+Kiểu đối tượng
 
 </ul>
