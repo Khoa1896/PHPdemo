@@ -1,7 +1,7 @@
-# GIT FLOW
+##GIT FLOW
 
-1. Khái niệm : Git flow là tiện ích của git,giúp thao tác trên repository dễ dàng
-   hiệu quả hơn dưa trên mô hình phân nhánh.
+ 1. Khái niệm : Git flow là tiện ích của git,giúp thao tác trên repository dễ dàng
+hiệu quả hơn dưa trên mô hình phân nhánh.
 ## Branch
 *Có 5 loại branch : Master,release,develop,feature,hot-fix*
 
@@ -40,7 +40,7 @@ là Server
 </li>
 </ul>
 
-# Giao thức HTML
+##Giao thức HTML
 Client và Server được kết nối qua giao thức HTML.Khi kết nối được thiết lập :
 <ul>
  <li>Client gửi yêu cầu Server ( dưới dạng XML or Json) 
@@ -49,9 +49,9 @@ Client yêu cầu ( dưới dạng XML or Json)
 </li> 
 </ul>
 
-# Ngôn Ngữ PHP
+#Ngôn Ngữ PHP
 
-## PHP là gì ?
+##PHP là gì ?
 - PHP là một ngôn ngữ lập trình kịch bản phía Server (hay còn gọi là Back end)
   dùng để phát triển các ứng dụng web
 - Hoạt động trên nhiều hệ điều hành
@@ -62,11 +62,11 @@ Client yêu cầu ( dưới dạng XML or Json)
 - PHP có rất nhiều Framework,CMS miễn phí,cộng đồng lớn.\
   Bản chất ngôn ngữ lập trình PHP : Là sự giao tiếp của browser(Front-end) và Server(back-end) bằng HTT\
   Sơ đồ :
-  + Xử lý truy vấn dữ liệu
-  + Front-end: HTML,CSS,JS   --> FRONT END --> WEBSITE -->CSDL/Backend
-  + Thêm,sửa,xoá dữ liệu
+    + Xử lý truy vấn dữ liệu                                 
+    + Front-end: HTML,CSS,JS   --> FRONT END --> WEBSITE -->CSDL/Backend
+    + Thêm,sửa,xoá dữ liệu                                  
 
-## Lộ trình học PHP & MySQL
+##Lộ trình học PHP & MySQL
 <li> Sơ đồ :
 <ul>
   <li>PHP cơ bản 
@@ -83,9 +83,8 @@ Client yêu cầu ( dưới dạng XML or Json)
 <li>Tên miền,hosting,server/VPS
 <li>Bảo mật các hình thức tấn công và cách phòng tránh
 </ul>
-
 # BÀI HỌC
-### 4. Kiểm tra thông tin trong PHP
+###4. Kiểm tra thông tin trong PHP 
 <ul>
  <li>Thông tin này bao gồm :Phiên bản PHP,các phần mở rộng được cài,các biến
 môi trường của PHP,thông tin và hệ điều hành.....
@@ -93,9 +92,9 @@ môi trường của PHP,thông tin và hệ điều hành.....
     phpinfo(); --> xem trên localhost
 </ul>
 
-### 5.Hướng dẫn dùng Biến-Comment-Debug trong PHP :
+###5.Hướng dẫn dùng Biến-Comment-Debug trong PHP : 
 
-1. Biến :
+<li>Biến :
 <ul>
   <li>Cú pháp : $ten_bien
   <li>Ví dụ : $custom_name
@@ -112,48 +111,14 @@ môi trường của PHP,thông tin và hệ điều hành.....
 <li>Cú pháp : echo < tên biến/tên hàm/chuỗi/số > ;
 </ul>
 </ul>
-2. Comment : 
+<li>Comment : 
 <ul>
    <li>1 dòng : // code ở đây
   <li>Nhiều dòng : /* code ở đây */
 </ul>
-3. Debug dữ liệu :
+<li>Debug dữ liệu :
 <ul>
   <li>var_dump($var): Trả về kiểu dữ liệu và giá trị
   <li>print_r($var): Thường dùng để in mảng và đối tượng
 </ul>
 
-### 6.Cách nối biến trong PHP
-<li>Cú pháp : $bien1.$bien2 ;
-<li>Ví dụ : 
-<ul>
-<li>bien1 = 'Khoa'
-<li>bien = 'Nguyen';
-<li>echo $bien1.' '.@bien2;
-</ul>
-
-### 7.Hằng trong PHP
-<li>Cú Pháp : define('ten_hang','giá trị');
-<li>Đặt tên Hằng : 
-<ul>
-<li>Chứa các chữ cái,chữ số,dấu gạch dưới
-<li>Bắt đầu bằng chữ cái hoặc gạch dưới
-<li>Phân biệt chữ hoa,chữ thường
-<li>Nên đặt tên theo quy tắc underscore nhưng viết hoa ( Ví dụ : WEB_HOST_ROOT)
-hoặc thêm gạch dưới ở phía trước.
-</ul>
-<li>Chú ý : Hằng số chỉ nhận 1 giá trị ban đầu,không thay đổi.
-
-### 8. Các kiểu dữ liệu trong PHP
-*Có 8 kiểu dữ liệu trong PHP*
- <ul>
-Kiểu INT
-Kiểu số thực
-Kiểu String
-Kiẻu Boolean
-Kiểu Mảng
-Kiểu Null
-Kiểu Resource
-Kiểu đối tượng
-
-</ul>
