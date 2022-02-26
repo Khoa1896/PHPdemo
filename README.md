@@ -160,52 +160,72 @@ hoặc thêm gạch dưới ở phía trước.
 <li>Kiểu đối tượng
 </ul>
  1. Kiểu số nguyên ( INT )
-   Khai báo : $ten_bien = so_nguyen;
-   Ép kiểu INT : (int)$ten_bien;
-   Kiểm tra số nguyên : is_int($ten_bien) hoặc is_interger($ten_bien)
- 2. Kiểu Boolean ( true or false)
-   Khai báo : $ten_bine = giá trị Boolean;(true or false)
-   Ép kiểu : (bool)$ten_bien hoặc (boolean)$ten_bien
-   Các kí tự : 0,trống,null đều quy về false,ngược lại là true
-   Kiểm tra biến kiểu boolean : is_bool($ten_bien);
- 3. Kiểu số thực (Float)
-   Khai báo : $ten_bien = so_thuc;
-   Ép kiểu : (float)$ten_bien;
-   Kiểm tra kiểu số thực : is_float(ten_bien);
+<ul>
+   <li>Khai báo : $ten_bien = so_nguyen;
+   <li>Ép kiểu INT : (int)$ten_bien;
+   <li>Kiểm tra số nguyên : is_int($ten_bien) hoặc is_interger($ten_bien)
+ </ul>
+2. Kiểu Boolean ( true or false)
+<ul>
+   <li>Khai báo : $ten_bine = giá trị Boolean;(true or false)
+   <li>Ép kiểu : (bool)$ten_bien hoặc (boolean)$ten_bien
+   <li>Các kí tự : 0,trống,null đều quy về false,ngược lại là true
+   <li>Kiểm tra biến kiểu boolean : is_bool($ten_bien);
+</ul> 
+3. Kiểu số thực (Float)
+<ul>
+   <li>Khai báo : $ten_bien = so_thuc;
+   <li>Ép kiểu : (float)$ten_bien;
+   <li>Kiểm tra kiểu số thực : is_float(ten_bien);
+</ul>
  4. Kiểu chuỗi 
-   Khai báo :$ten_bien = 'Chuỗi'; hoặc $ten_bien = "Chuỗi"
-   Ép kiểu : (string)$ten_bien;
-   Kiểm tra kiểu chuỗi : is_string($ten_bien);
+<ul>
+   <li>Khai báo :$ten_bien = 'Chuỗi'; hoặc $ten_bien = "Chuỗi"
+   <li>Ép kiểu : (string)$ten_bien;
+  <li> Kiểm tra kiểu chuỗi : is_string($ten_bien);
+</ul>
  5. Kiểu dữ liệu mảng 
-   Khai báo : $ten_bien = array();
-   Ép kiểu mảng : (array)$ten_bien; -> Thường dùng khi ép từ bên Objiec sang
-   Kiểm tra kiểu mảng : is_array($ten_bien);
+<ul>
+   <li>Khai báo : $ten_bien = array();
+   <li>Ép kiểu mảng : (array)$ten_bien; -> Thường dùng khi ép từ bên Objiec sang
+   <li>Kiểm tra kiểu mảng : is_array($ten_bien);
+</ul>
  6. Kiểu dữ liệu NULL
-   Khai báo : $ten_bien = null
-   Ép kiểu sáng int => 0;
-   Ép kiểu sang String => Rỗng;
-   Ép kiểu sang String => False;
-   Kiểm tra kiểu Nukk : is_null($ten_bien);
-  Phân biệt empty và null : 
-   - biến Null : hệ thống không cung cấp vùng nhớ/
-   - biến ''(empty) : biến này vẫn tồn tại 1 vùng nhớ 
+<ul>
+   <li>Khai báo : $ten_bien = null
+   <li>Ép kiểu sáng int => 0;
+   <li>Ép kiểu sang String => Rỗng;
+   <li>Ép kiểu sang String => False;
+   <li>Kiểm tra kiểu Nukk : is_null($ten_bien);
+</ul>
+  <li>Phân biệt empty và null : 
+<ul>
+   <li>biến Null : hệ thống không cung cấp vùng nhớ/
+   <li>biến ''(empty) : biến này vẫn tồn tại 1 vùng nhớ 
 -> Để tối ưu bài toán,ta muốn giữ chỗ cho 1 biến,hay khai báo giá trị ban đầu
 thì nên khai báo kiểu NUll
- 7. Kiểu dữ liệu Resource 
-   - Kiểu dữ liệu đặc biệc,nó lưu trữ thamm chiếu đến các hàm - tài nguyên
+</ul> 
+7. Kiểu dữ liệu Resource 
+<ul>
+   <li> Kiểu dữ liệu đặc biệc,nó lưu trữ thamm chiếu đến các hàm - tài nguyên
 bên ngoài PHP : file,curl,database
-   - Kiểm tra kiểu resource : is_resource($ten_bien)
+   <li>Kiểm tra kiểu resource : is_resource($ten_bien)
+</ul>
  8 . Kiểu đối tượng (Object)
-   Kiểu dữ liệu này lưu trữ dữ liệu và cách xử lý dữ liệu đó 
-   KIểm tra kiểu đối tượng : is_object($ten_bien)
-   Ép kiểu đối tượng từ mảng : (object)$bien_mang
+<ul>
+   <li>Kiểu dữ liệu này lưu trữ dữ liệu và cách xử lý dữ liệu đó 
+  <li> KIểm tra kiểu đối tượng : is_object($ten_bien)
+   <li>Ép kiểu đối tượng từ mảng : (object)$bien_mang
+</ul>
 
 ###9. Toán tử và biểu thức trong PHP
- Biểu thức : Tập hợp các toán tử và toán hạng
-  - Toán hạng: Các biến hay các giá trị thực hiện
-  - Toán tử : Các phép toán: Cộng,trừ,nhân,chia,so sánh,lấy dư.... 
-Toán tử gán : =,+=.-=,/=,%=,*=,.=(nối chuỗi)...
-Toán tử số học : =,-,*,/,**,++,--
-Toán tử so sánh : >,<,<=,==,===,!=
-Toán tử lý luận : &&,||,!,( Độ ưu tiên NOT => And => OR)
-  - 
+<ul>
+ <li>Biểu thức : Tập hợp các toán tử và toán hạng
+  <li>Toán hạng: Các biến hay các giá trị thực hiện
+  <li>Toán tử : Các phép toán: Cộng,trừ,nhân,chia,so sánh,lấy dư.... 
+<ul>
+<li>Toán tử gán : =,+=.-=,/=,%=,*=,.=(nối chuỗi)...
+<li>Toán tử số học : =,-,*,/,**,++,--
+<li>Toán tử so sánh : >,<,<=,==,===,!=
+<li>Toán tử lý luận : &&,||,!,( Độ ưu tiên NOT => And => OR)
+  </ul>
