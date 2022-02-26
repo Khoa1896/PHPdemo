@@ -219,6 +219,7 @@ bên ngoài PHP : file,curl,database
 </ul>
 
 ###9. Toán tử và biểu thức trong PHP
+
 <ul>
  <li>Biểu thức : Tập hợp các toán tử và toán hạng
   <li>Toán hạng: Các biến hay các giá trị thực hiện
