@@ -218,7 +218,7 @@ bên ngoài PHP : file,curl,database
    <li>Ép kiểu đối tượng từ mảng : (object)$bien_mang
 </ul>
 
-###9. Toán tử và biểu thức trong PHP
+### 9. Toán tử và biểu thức trong PHP
 
 <ul>
  <li>Biểu thức : Tập hợp các toán tử và toán hạng
