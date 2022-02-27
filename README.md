@@ -253,7 +253,7 @@ echo 'Số nguyên dương' ;\
  }\
 }
 
-### 10. Câu lệnh rẽ nhành Switch Case
+### 11. Câu lệnh rẽ nhánh Switch Case
  <li>Giá trị case chỉ chấp nhận : Số nguyên,string,boolean,null,số thực
   <li>Quan hệ so sánh trong câu lệnh switch case luôn là so sánh bằng (==)
  <li> Switch case được dùng khhi câu điều kiện có nhiều nhánh.Tuy nhiên 
@@ -269,7 +269,7 @@ case 'gia_tri_2':\
 break;\
 case 'giá tri_4':\
 break;\
-dèault:\
+default:\
 // Danh sách câu lệnh\
 break;\
 }\
