@@ -230,3 +230,46 @@ bên ngoài PHP : file,curl,database
 <li>Toán tử so sánh : >,<,<=,==,===,!=
 <li>Toán tử lý luận : &&,||,!,( Độ ưu tiên NOT => And => OR)
   </ul>
+
+### 10. Câu lệnh rẽ nhánh if else trong PHP
+- Cú pháp : 
+  if (condition){\
+  // Các câu lệnh\
+}\
+Ví dụ : $number=1;\
+if($number>0){\
+echo 'Số nguyên dương' ;\ 
+}\
+ - Kết hợp nhiều if else :\
+  if(condition1){\
+  // Câu lệnh\
+}elseif (condition2){\
+  // Câu lệnh } \
+- Câu lệnh if else lồng nhau :\
+ if(condition1){\
+ if(condition2){\
+// Câu lệnh} else{\
+// Câu lệnh\
+ }\
+}
+
+### 10. Câu lệnh rẽ nhành Switch Case
+ <li>Giá trị case chỉ chấp nhận : Số nguyên,string,boolean,null,số thực
+  <li>Quan hệ so sánh trong câu lệnh switch case luôn là so sánh bằng (==)
+ <li> Switch case được dùng khhi câu điều kiện có nhiều nhánh.Tuy nhiên 
+ kém linh hoạt hơn if else
+  <li>Switch case có thể kết hợp vs if else để tăng sự linh hoạt
+ Switch case có thể lồng vs Switch case con
+ <li> Cú pháp : 
+ 
+  switch($ten_bien){\
+ case 'gia_tri_1':\
+case 'gia_tri_2':\
+// Danh sách câu lệnh\
+break;\
+case 'giá tri_4':\
+break;\
+dèault:\
+// Danh sách câu lệnh\
+break;\
+}\
