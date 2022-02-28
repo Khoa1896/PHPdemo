@@ -62,9 +62,9 @@ Client yêu cầu ( dưới dạng XML or Json)
 - PHP có rất nhiều Framework,CMS miễn phí,cộng đồng lớn.\
   Bản chất ngôn ngữ lập trình PHP : Là sự giao tiếp của browser(Front-end) và Server(back-end) bằng HTT\
   Sơ đồ :
-  + Xử lý truy vấn dữ liệu
-  + Front-end: HTML,CSS,JS   --> FRONT END --> WEBSITE -->CSDL/Backend
-  + Thêm,sửa,xoá dữ liệu
+    + Xử lý truy vấn dữ liệu
+    + Front-end: HTML,CSS,JS   --> FRONT END --> WEBSITE -->CSDL/Backend
+    + Thêm,sửa,xoá dữ liệu
 
 ## Lộ trình học PHP & MySQL
 <li> Sơ đồ :
@@ -232,30 +232,35 @@ bên ngoài PHP : file,curl,database
   </ul>
 
 ### 10. Câu lệnh rẽ nhánh if else trong PHP
-- Cú pháp : 
+- Cú pháp :
   if (condition){\
   // Các câu lệnh\
-}\
-Ví dụ : $number=1;\
-if($number>0){\
-echo 'Số nguyên dương' ;\ 
-}\
- - Kết hợp nhiều if else :\
+  }\
+  Ví dụ : $number=1;\
+  if($number>0){\
+  echo 'Số nguyên dương' ;\
+  }\
+- Kết hợp nhiều if else :\
   if(condition1){\
   // Câu lệnh\
-}elseif (condition2){\
+  }elseif (condition2){\
   // Câu lệnh } \
 - Câu lệnh if else lồng nhau :\
- if(condition1){\
- if(condition2){\
-// Câu lệnh} else{\
-// Câu lệnh\
- }\
-}
+  if(condition1){\
+  if(condition2){\
+  // Câu lệnh} else{\
+  // Câu lệnh\
+  }\
+  }
 
+<<<<<<< HEAD
 ### 11. Câu lệnh rẽ nhành Switch Case
 <ul>
 <li>Giá trị case chỉ chấp nhận : Số nguyên,string,boolean,null,số thực
+=======
+### 11. Câu lệnh rẽ nhánh Switch Case
+ <li>Giá trị case chỉ chấp nhận : Số nguyên,string,boolean,null,số thực
+>>>>>>> origin/Khoa-1
   <li>Quan hệ so sánh trong câu lệnh switch case luôn là so sánh bằng (==)
  <li> Switch case được dùng khhi câu điều kiện có nhiều nhánh.Tuy nhiên 
  kém linh hoạt hơn if else
@@ -270,12 +275,13 @@ case 'gia_tri_2':\
 break;\
 case 'giá tri_4':\
 break;\
-dèault:\
+default:\
 // Danh sách câu lệnh\
 break;\
 }\
+<<<<<<< HEAD
 </ul>
- 
+
 
 ### 12. Vòng lặp trong PHP
  <li>Vòng làm là đoạn mã lệnh đó chương trình được lặp đi lặp lại nhiều
@@ -334,15 +340,19 @@ Vòng lặp while có thể không chạy nếu không thoả mãn điều kiệ
 </ul>
 
 
-###16. Lệnh Include - Inclue_once - Require - Requirce_once
+### 16. Lệnh Include - Inclue_once - Require - Requirce_once
 <ul>
 <li>4 lệnh : inclide,include_once,require,require_once dùng dể import file
 php khác voà php đang chạy
-Cú pháp chung : include'path_to_php_file' hoặc include(path_to_php_file');)
-include : import file khác,nếu import lỗi => các câu lệnh bên dưới vẫn chạy
-include_once: import file khác,chỉ import 1 lần,nếu import lỗi => các câu lệnh bên dưới
+<li>Cú pháp chung : include'path_to_php_file' hoặc include(path_to_php_file');)
+<ul>
+<li>include : import file khác,nếu import lỗi => các câu lệnh bên dưới vẫn chạy
+<li>include_once: import file khác,chỉ import 1 lần,nếu import lỗi => các câu lệnh bên dưới
 vẫn chạy
-require : import file khác,nếu import lỗi => các câu lệnh bên dưới sẽ dừng
-require_once : import file khác,chỉ import 1 lần,nếu import lỗi => các câu lệnh
+<li>require : import file khác,nếu import lỗi => các câu lệnh bên dưới sẽ dừng
+<li>require_once : import file khác,chỉ import 1 lần,nếu import lỗi => các câu lệnh
 bên dưới sẽ dừng
 </ul>
+</ul>
+</ul>
+
