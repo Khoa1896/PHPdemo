@@ -356,3 +356,21 @@ bên dưới sẽ dừng
 </ul>
 </ul>
 
+### 17. Cú pháp thay thế lệnh rẽ nhánh - vòng lặp
+<ul>
+ <li>Cú pháp : 
+ bieu_thuc_dieu_kien?Ket_qua_dung:Ket_qua_sai;
+ <li>Lưu ý : Toán tử 3 ngôi phải gắn với 1 biểu thức (gán,echo)
+ <li>Luôn luôn phải có kết quả sai.Nếu không muốn hiển thị thì để là
+false,null,trốn('')
+
+</ul>
+
+### 18. Xử lý chuỗi 
+Các hàm xử lý chuỗi 
+<ul>
+<li>Cú Pháp :addcslashes($str,$char_list) : Hàm này sẽ thêm dấu escape(\) phía trước
+những ký tự trong chuỗi $str mà ta liệt kê ở $char_list
+<li>Ví dụ : echo addcslashes('Dang Khoa','a'); 
+--> kết quả : Dang Kho\a
+</ul>
