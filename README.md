@@ -253,17 +253,18 @@ echo 'Số nguyên dương' ;\
  }\
 }
 
-### 10. Câu lệnh rẽ nhành Switch Case
- <li>Giá trị case chỉ chấp nhận : Số nguyên,string,boolean,null,số thực
+### 11. Câu lệnh rẽ nhành Switch Case
+<ul>
+<li>Giá trị case chỉ chấp nhận : Số nguyên,string,boolean,null,số thực
   <li>Quan hệ so sánh trong câu lệnh switch case luôn là so sánh bằng (==)
  <li> Switch case được dùng khhi câu điều kiện có nhiều nhánh.Tuy nhiên 
  kém linh hoạt hơn if else
   <li>Switch case có thể kết hợp vs if else để tăng sự linh hoạt
  Switch case có thể lồng vs Switch case con
  <li> Cú pháp : 
- 
-  switch($ten_bien){\
- case 'gia_tri_1':\
+
+switch($ten_bien){\
+case 'gia_tri_1':\
 case 'gia_tri_2':\
 // Danh sách câu lệnh\
 break;\
@@ -273,3 +274,75 @@ dèault:\
 // Danh sách câu lệnh\
 break;\
 }\
+</ul>
+ 
+
+### 12. Vòng lặp trong PHP
+ <li>Vòng làm là đoạn mã lệnh đó chương trình được lặp đi lặp lại nhiều
+ lần cho đến khi thoả mãn điều kiện nào đó
+ <li>Trong PHP có 4 loại vòng lặp : 
+<ul>
+<li>Vòng lặp for : Lặp với số lần lặp được xác định trước
+<li>Vòng lặp white và do white : Lặp với số lần lặp không xác định trước
+<li>Vòng lặp foreach : Vòng lặp dùng để lặp các phần tử trong mảng
+</ul>
+1. Vòng lặp for
+ Cú pháp : for($ten_bien = gia_tri_dau;dieu_kien_dung;bieu_thuc_tang){
+// Câu lệnh
+}
+Ví dụ : 
+for ($i = 0 ;$i <10 ;$i++){
+echo $i '<br>';
+}
+
+### 13. Vòng lặp WHILE trong PHP
+<ul>
+<li>Cú pháp : 
+ while (dieu_kien_dung){
+// Danh sách câu lệnh
+}
+<li>Lưu ý : 
+<ul>
+<li>Vòng lặp while sẽ lặp với số lần không xác định trước.Có nghĩa phải
+có điều kiện để thoát vòng lặp
+<li>Vòng lặp while có thể bị treo nếu phần xử lý thoát vòng lặp bị sai 
+hoặc không triệt để
+Vòng lặp while có thể không chạy nếu không thoả mãn điều kiện
+</ul>
+ </ul>
+
+### 14. Vòng lặp Do while trong PHP
+ <ul>
+<li>Cú pháp : do{
+ // Danh sách câu lênh }while(dieu_kien_dung)
+<li>Lưu ý :
+<ul>
+  <li>Cũng giống như vòng lặp while,vòng lặp Do While sẽ lặp với số lần không
+ xác định trước
+ <li>Vòng lặp Do While sẽ thực hiện câu lênh trước,rồi mới kiểm tra điều kiện dừng
+ <li>Vòng lặp Do while có thể bị treo nếu không bao giờ thoã mãn điều kiện dừng
+ <li>Vòng lặp Do while luôn thực hiện ít nhất 1 câu lệnh(kể cả không thoã mãn điều kiện)
+ </ul>
+</ul>
+
+### 15. BREAK - CONTINUE - DIE - EXIT
+ <ul>
+<li>break : Thoát khỏi vòng lặp khi vòng lặp chưa kết thúc
+<li>continue : Nhảy qua vòng lặp kế tiếp
+<li>  die vfa exit : Dừng cả chương trình phía dưới
+
+</ul>
+
+
+###16. Lệnh Include - Inclue_once - Require - Requirce_once
+<ul>
+<li>4 lệnh : inclide,include_once,require,require_once dùng dể import file
+php khác voà php đang chạy
+Cú pháp chung : include'path_to_php_file' hoặc include(path_to_php_file');)
+include : import file khác,nếu import lỗi => các câu lệnh bên dưới vẫn chạy
+include_once: import file khác,chỉ import 1 lần,nếu import lỗi => các câu lệnh bên dưới
+vẫn chạy
+require : import file khác,nếu import lỗi => các câu lệnh bên dưới sẽ dừng
+require_once : import file khác,chỉ import 1 lần,nếu import lỗi => các câu lệnh
+bên dưới sẽ dừng
+</ul>
