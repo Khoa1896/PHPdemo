@@ -382,6 +382,7 @@ implode($delimiter,$piecesarray) : Hàm này sẽ nối các
 phần tử của mảng và các phần tử nối với nhau bưởi chuỗi $delimiter
 </ul>
 </ul>
+
 ### 19. Định nghĩa Hàm
  <ul>
 <li>Cú pháp :
