@@ -373,4 +373,50 @@ Các hàm xử lý chuỗi
 những ký tự trong chuỗi $str mà ta liệt kê ở $char_list
 <li>Ví dụ : echo addcslashes('Dang Khoa','a'); 
 --> kết quả : Dang Kho\a
+<li>stripslashes($str): Hàm này sẽ xoá bỏ các ký tự escape(\) trong chuỗi
+<li></li>explode($delimiter,$string) : Hàm náy sẽ chuyển 1 chuỗi $string thành 
+một mảng các phần tử vs ký tự tách mảng là $delimiter
+<ul>
+<li>Ví dụ : $arr= explode('|','Nguyễn |Đăng| Khoa);
+implode($delimiter,$piecesarray) : Hàm này sẽ nối các 
+phần tử của mảng và các phần tử nối với nhau bưởi chuỗi $delimiter
+</ul>
+</ul>
+### 19. Định nghĩa Hàm
+ <ul>
+<li>Cú pháp :
+function ten_ham(danh_sach_tham_so{
+//Nội dung hàm
+}
+<ul>
+ <li>danh_sach_tham so : danh sách các biến cách nhau bởi dấu phẩy(,)
+<li>Gọi hàm : ten_ham(danh_sach_tham_tri)
+</ul>
+ <li>Hàm return ,hàm không return
+<li>Biến cục bộ,biến toàn cục,biến tĩnh
+<li>Tham biến,tham trị,tham số,tham chiếu
+
+Hàm return và hàm không return : 
+<ul>
+<li>Hàm không có từ khoá return => Hàm không return
+<li>Hàm có từ khoá return khi kết thúc => hàm return(hàm có giá trị trả về)
+ <li>Nếu từ khoá return được chạy ra => các hàm phía dưới không chạy
+</ul>
+Biến cục bộ,toàn cục
+<ul>
+<li>Biến cục bộ là biến được sử dụng trong phạm vi hàm 
+<li>Biến cục bộ không được sử dụng bên ngoài hàm hoặc trong hàm khác
+<li>Biến toàn cục là biến sử dung trong bất kì đâu
+<li>Biến toàn cục được khai báo ở ngoài hàm
+<li>Muốn sử dụng biến toàn cục bên trong hàm => Phải khai báo bằng từ khoá 
+global
+</ul>
+Tham biến,tham trị,tham số
+<ul>
+<li>Biến tĩnh : Không thay đổi giá trị khi gọi hàm
+<li>Tham biến : Làm thay đổi giá trị truyền vào
+<li>Tham trị : Không làm thay đổi giá trị truyền vào
+<li>Tham số : Được sử dụng khi định nghĩa hàm
+<li>Tham chiếu :$b được khai báo tham chiếu đến $a => $a thay đổi theo
+</ul>
 </ul>
