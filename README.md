@@ -419,5 +419,34 @@ Tham biến,tham trị,tham số
 <li>Tham trị : Không làm thay đổi giá trị truyền vào
 <li>Tham số : Được sử dụng khi định nghĩa hàm
 <li>Tham chiếu :$b được khai báo tham chiếu đến $a => $a thay đổi theo
+Hàm không giới hạn tham số
 </ul>
 </ul>
+
+### 20. Hàm isset - empty
+ <ul>
+<li>Hàm isset : Kiểm tra biến đã được khai báo chưa,cũng có thể kiểm
+tra biến có rỗng không.Nếu biến chưa được khai báo hoặc biến mang giá trị rỗng
+hàm sẽ trả về false và ngược lại.
+<ul>
+<li>Chú ý :Hàm isset nhận tất cả dữ liệu trừ kiểu null
+  </ul>
+<li>Hàm empty 
+<ul>
+Chỉ trả về kiểu dữ liệu boolean
+Trả về true nếu : + Không tồn tại => !isset($varriable)
+ + Rỗng,=0,trống,null,array không có phần tử,object rỗng
+</ul>
+</ul>
+
+### 21. Mảng trong PHP
+ - Vấn đề khi duyệt ( đọc) mảng : 
+   <li>Trước khi duyệt mảng :
+   <ul>
+   <li> 1.Kiểm tra biến tồn tại
+   <li> 2.Kiểm trả biến là mảng (is_array())
+    <li>3.Kiểm tra mảng có phần tử ()
+   => 1 va 3 dùng hàm empty(),isset
+   </ul>
+ - Mảng đa chiều 
+ - Duyệt (đọc) mảng đa chiều
