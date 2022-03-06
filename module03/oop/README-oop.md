@@ -1,3 +1,16 @@
+### NGUYÊN TẮC CHUNG NHẤT KHI CODE PHP
+1. Nguyên tắc PSR-1
+ <ul>
+<li>Các file code phải sử dụng thẻ <?php hoặc <?=
+<li>File code PHP phải sử dụng encode : UTF-8 without BOOM
+<li>Các file NÊN chứa các khai báo (lớp, hàm, hằng ...) hoặc các tác dụng phụ (thiết lập, xuất dữ liệu chung ...) nhưng KHÔNG NÊN chứa cả hai
+<li>Các Namespace và lớp (class) PHẢI theo chuẩn "autoloading" PSR: [PSR-0 và PSR-4]
+<li>Tên lớp PHẢI có dạng NameClass 
+<li>Hằng số trong class tất cả PHẢI viết HOA và chia ra bởi dấu _ (ví dụ ES_TEST_HOST).
+<li>Tên phương thức của lớp PHẢI ở dạng camelCase (từ đầu viết thường, ví dụ: helloWorld)
+</ul>
+
+
 ## PHƯƠNG PHÁP LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
 
 Lập trình hướng đối tượng (OOP) : 
@@ -58,6 +71,8 @@ $tenObject = new TenClass();
 <li>// Có thể gọi hằng số theo cách sau : 
 TenClass::TEN_HANG_SO;
 </ul>
+<li>Namespace : Giúp tạo ra một không gian cho hàm và lớp nói chung. Trong OOP thì namespace
+có tác dụng tạo ra định danh cho lớp cách cụ thể hoá hơn
 
 ### Interface Template 
 <li> Interface trong OOP là 1 Template(khuôn mẫu) được sử dụng để tạo ra 
@@ -123,3 +138,5 @@ interface IFô extends IBar,ArrayAccess, IteratorAggregate, Serializable{
     //Interface body
 }
 ```
+
+
